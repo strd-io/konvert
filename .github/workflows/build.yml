@@ -9,7 +9,7 @@ on:
       - ready_for_review
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
